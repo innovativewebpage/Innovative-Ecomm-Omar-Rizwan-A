@@ -1,0 +1,29 @@
+$main-color: #ffff;
+$red-color: red;
+$green-color: green;
+$blue-color: blue;
+$yellow-color: yellow;
+$brown-color: brown;
+
+.header {
+  background: $main-color;
+}
+.red {
+  background: $red-color;
+}
+.green {
+  background: $green-color;
+}
+.blue {
+  background: $blue-color;
+}
+.yellow {
+  background: $yellow-color;
+}
+.brown {
+  background: $brown-color;
+}
+.half-col {
+  flex: 0 0 12.5%; /* 1.5 out of 12 columns = 12.5% */
+  max-width: 12.5%;
+}
