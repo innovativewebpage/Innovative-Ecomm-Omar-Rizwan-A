@@ -1,0 +1,96 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Login button */
+.nav-item.login {
+  position: relative;
+  cursor: pointer;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #2874f0;
+  transition: background 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.nav-item.login:hover .dropdown {
+  display: flex;
+}
+
+/* Dropdown header */
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f5f5f5;
+  font-size: 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dropdown-header b {
+  color: #2874f0;
+  cursor: pointer;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Icon spacing */
+.dropdown-item i,
+.login-button i {
+  font-size: 14px;
+}
+
+/* Arrow styling */
+.dropdown-arrow {
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Rotate arrow on hover */
+.nav-item.login:hover .dropdown-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
