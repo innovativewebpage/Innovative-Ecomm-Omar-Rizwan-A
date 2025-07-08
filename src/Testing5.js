@@ -1,29 +1,11 @@
+import { Container, Col, Row } from 'react-bootstrap';
+import './Testing5.scss';
 
-import { Col, Row, } from 'react-bootstrap';
-import './Header.scss'
-
-function Header() {
+function Testing5() {
     return (
-        <div className="">
-            <Row className="p-top p-bottom header">
-                <Col className='logo col-1_5 '>
-                    <img src="./images/logo.png"></img>
-                </Col>
-
-                <Col sm={6} className='header_main_search '>
-                    <div class="search-box">
-                        <span class="search-icon">&#128269;</span>
-                        <input
-                            type="text"
-                            placeholder="Search for Products, Brands and More"
-                            class="search-input"
-                        />
-                    </div>
-
-
-
-                </Col>
-                <Col className="col-4_5">
+        <Container fluid>
+            <Row>
+                <Col sm={12}>
                     <div class="navbar">
                         <div class="nav-item login">
                             <div class="login-button">
@@ -45,17 +27,11 @@ function Header() {
                                 <div class="dropdown-item"><i class="fa-regular fa-credit-card"></i> Gift Cards</div>
                             </div>
                         </div>
-                        <div class="nav-item"><i class="fa-solid fa-cart-shopping"></i> Cart</div>
-                        <div class="nav-item"><i class="fa-solid fa-store"></i> Become a Seller</div>
-                        <div class="nav-item"><i class="fa-solid fa-ellipsis-vertical"></i></div>
                     </div>
+
                 </Col>
             </Row>
-
-        </div>
-
+        </Container>
     )
 }
-
-export default Header;
-
+export default Testing5;
