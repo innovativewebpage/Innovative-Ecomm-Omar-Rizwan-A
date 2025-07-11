@@ -48,6 +48,7 @@ function Header() {
                         <div class="nav-item"><i class="fa-solid fa-cart-shopping"></i> Cart</div>
                         <div class="nav-item"><i class="fa-solid fa-store"></i> Become a Seller</div>
                         <div class="nav-item"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+
                     </div>
                 </Col>
             </Row>

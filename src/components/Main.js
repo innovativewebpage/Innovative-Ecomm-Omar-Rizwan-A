@@ -1,12 +1,15 @@
 
-import Header from './Header';
-import './Main.scss';
 import { Container, Col, Row } from 'react-bootstrap';
+import Header from './Header';
+import Main_Products_Option from './Main_Products_Option';
+import './Main.scss';
+
 function Main() {
     return (
         <>
             <Container fluid>
                 <Header />
+                <Main_Products_Option />
             </Container>
 
 
