@@ -1,4 +1,3 @@
-
 import { Col, Row, } from 'react-bootstrap';
 import './Header.scss'
 
@@ -7,7 +6,7 @@ function Header() {
         <div className="">
             <Row className="p-top p-bottom header">
                 <Col className='logo col-1_5 '>
-                    <img src="./images/logo.png"></img>
+                    <img src="./images/logo.png" alt="logo"></img>
                 </Col>
 
                 <Col sm={6} className='header_main_search '>
@@ -38,13 +37,13 @@ function Header() {
                                     <b>Sign Up</b>
                                 </div>
                                 <div class="dropdown-item"><i class="fa-regular fa-user"></i> My Profile</div>
-                                <div class="dropdown-item"><i class="fa-solid fa-crown"></i> Flipkart Plus Zone</div>
+                                <div class="..dropdown-item"><i class="fa-solid fa-crown"></i> Flipkart Plus Zone</div>
                                 <div class="dropdown-item"><i class="fa-solid fa-box"></i> Orders</div>
                                 <div class="dropdown-item"><i class="fa-regular fa-heart"></i> Wishlist</div>
                                 <div class="dropdown-item"><i class="fa-solid fa-gift"></i> Rewards</div>
                                 <div class="dropdown-item"><i class="fa-regular fa-credit-card"></i> Gift Cards</div>
                             </div>
-                        </div>
+                            q                        </div>
                         <div class="nav-item"><i class="fa-solid fa-cart-shopping"></i> Cart</div>
                         <div class="nav-item"><i class="fa-solid fa-store"></i> Become a Seller</div>
                         <div class="nav-item"><i class="fa-solid fa-ellipsis-vertical"></i></div>

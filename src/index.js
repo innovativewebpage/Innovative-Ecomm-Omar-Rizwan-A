@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './index.css';
-import App from './App';
+//import App from './App';
 // import App from './Testing';
 //import App from './Testing1';
 //import App from './Testing2';
@@ -11,6 +11,7 @@ import App from './App';
 //import App from './Testing4'
 //import App from './Testing5';
 //import App from './Testing6';
+import App from './Testing7';
 
 import reportWebVitals from './reportWebVitals';
 
