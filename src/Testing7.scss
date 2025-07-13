@@ -1,0 +1,37 @@
+.full-carousel-wrapper {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f4f4f4;
+}
+
+.carousel-slide {
+  min-height: 300px;
+  padding: 40px 0;
+}
+
+.banner-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Optional: Specific slide text styling */
+.testing,
+.text-content {
+  text-align: center;
+}
+
+.testing h2,
+.text-content h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.testing p,
+.text-content p {
+  font-size: 18px;
+  color: #555;
+}
